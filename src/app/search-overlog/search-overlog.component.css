@@ -1,0 +1,27 @@
+table, button, input{
+  font-size: 2rem;
+  font-weight:bold;
+  color:#fff;
+}
+
+table{
+  margin: 0 auto;
+}
+button{
+ background-color: #f79c1b;
+ border-radius:5px;
+ border:solid 1px #f79c1b;
+ padding:16px 18px 14px;
+ cursor:pointer;
+}
+
+input{
+  width:65%;
+  background-color:transparent;
+  border:0px;
+  border-bottom:3px solid rgba(240, 248, 255, 0.4);
+  outline: none;
+}
+input:focus{
+  border-bottom:3px solid rgba(255, 215, 0, 1);
+}
