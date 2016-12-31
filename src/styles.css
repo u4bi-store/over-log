@@ -4,6 +4,7 @@ body{
   padding:0;
   background: url('http://drive.google.com/uc?export=view&id=0B3XkfYbZArSfa01MYzJNcVM4UEU') no-repeat fixed 50% 50% / cover;
   color:#fff;
+  font-family:'NanumGothic';
 }
 
 .wrap{

@@ -1,3 +1,6 @@
+button, .flexBox{
+  font-weight:bold;
+}
 button{
  background-color: #f79c1b;
  border-radius:5px;
@@ -5,19 +8,17 @@ button{
  padding:15px 20px 15px 20px;
  cursor:pointer;
  margin:auto;
- font-weight:bold;
  color:#fff;
 }
 
 img{
-  width:55%;
-  height:220px;
+  width:50%;
+  border-radius: 10%;
 }
 
 .flexBox{
   display:flex;
   font-size: 1rem;
-  text-align: left;
   padding-left: 5%;
   line-height:200%;
 }
@@ -25,4 +26,18 @@ img{
 .flexBox div{
   width:33%;
   height:auto;
+}
+
+.flexBox span:hover{
+  color:rgba(255, 20, 147, 1);
+}
+
+.loding{
+  width:90%;
+  height:60%;
+}
+
+.logo{
+  width: 60%;
+  height: 150px;
 }

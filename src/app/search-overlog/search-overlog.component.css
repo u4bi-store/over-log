@@ -17,7 +17,8 @@ button{
 }
 
 input{
-  width:65%;
+  display:inline-block;
+  width:60%;
   background-color:transparent;
   border:0px;
   border-bottom:3px solid rgba(240, 248, 255, 0.4);
