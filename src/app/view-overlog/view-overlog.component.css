@@ -11,3 +11,13 @@ button{
  cursor:pointer;
  margin:auto;
 }
+
+.flexBox{
+  display:flex;
+}
+
+.flexBox div{
+  width:33%;
+  height:auto;
+  border: 1px solid red;
+}

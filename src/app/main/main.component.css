@@ -1,12 +1,3 @@
-.wrap{
-  width: 70%;
-  height: auto;
-  border:1px solid rgba(0,0,0,0.44);
-  margin: 5% auto;
-  background-color: rgba(0,0,0,0.4);
-  text-align:center;
-}
-
 img{
   width:100%;
   height:250px;

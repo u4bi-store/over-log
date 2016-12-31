@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-search-overlog',
   templateUrl: './search-overlog.component.html',
@@ -7,10 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchOverlogComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
   
   sendSearch(tag : string, num : string){
-    console.log(tag+' '+num);
+    if(tag === '' || num === '') return console.log('not input');
+    this.router.navigate(['/search', tag, num]);
   }
 
   ngOnInit() {
