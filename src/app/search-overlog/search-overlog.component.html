@@ -2,7 +2,7 @@
   <table>
     <tr>
       <td>
-        <p>배틀 태그 : <input #searchTag tabindex = "1" type="text" size="10" autofocus></p>
+        <p>배틀 태그 : <input #searchTag value="NECOP" tabindex = "1" type="text" size="10" autofocus></p>
       </td>
       <td rowspan="2">
         <button (click)="sendSearch(searchTag.value, searchNum.value)">검색</button>
@@ -10,7 +10,7 @@
     </tr>
     <tr>
       <td>
-        <p>태그넘버 : <input #searchNum tabindex = "2" type="text" size="10"></p>
+        <p>태그넘버 : <input #searchNum value="3112" tabindex = "2" type="text" size="10"></p>
       </td>
     </tr>
   </table>
