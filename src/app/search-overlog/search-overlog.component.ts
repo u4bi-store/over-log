@@ -8,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class SearchOverlogComponent implements OnInit {
 
   constructor() { }
+  
+  sendSearch(tag : string, num : string){
+    console.log(tag+' '+num);
+  }
 
   ngOnInit() {
   }
-
+  
 }
