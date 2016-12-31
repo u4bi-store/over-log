@@ -7,17 +7,17 @@
     <img [src]="over.avatar"><br>
     <span>이름 : {{over.username}}</span><br>
     <span>레벨 : {{over.level}}</span><br>
-    <span>총 승리한 게임 : {{over.total_wins}}</span><br>
+    <span>총 승리한 게임 : {{over.total_wins | viewOverlogo:0}}</span><br>
   </div>
   <div>
     <span>빠른대전</span><br>
-    <span>플레이시간 : {{over.quick_play.time_played}}</span><br>
+    <span>플레이시간 : {{over.quick_play.time_played | viewOverlogo:1}}</span><br>
     <span>폭주시간 : {{over.quick_play.time_on_fire}}</span><br>
     <span>임무기여시간 : {{over.quick_play.objective_time}}</span><br>
     <span>상위 영웅</span><br>
-    <span>1위 : {{over.quick_play.hero1}}</span><br>
-    <span>2위 : {{over.quick_play.hero2}}</span><br>
-    <span>3위 : {{over.quick_play.hero3}}</span><br>
+    <span>1위 : {{over.quick_play.hero1 | viewOverlogo:2}}</span><br>
+    <span>2위 : {{over.quick_play.hero2 | viewOverlogo:2}}</span><br>
+    <span>3위 : {{over.quick_play.hero3 | viewOverlogo:2}}</span><br>
   </div>
   <div>
     <span>경쟁전</span><br>
@@ -25,13 +25,13 @@
     <span>승리 : {{over.competitive_play.wins}}</span><br> 
     <span>패배 : {{over.competitive_play.loss}}</span><br>
     <span>치룬 경기 : {{over.competitive_play.games_played}}</span><br>
-    <span>플레이시간 : {{over.competitive_play.time_played}}</span><br>
+    <span>플레이시간 : {{over.competitive_play.time_played | viewOverlogo:1}}</span><br>
     <span>폭주시간 : {{over.competitive_play.time_on_fire}}</span><br>
     <span>임무기여시간 : {{over.competitive_play.objective_time}}</span><br>
     <span>상위 영웅</span><br>
-    <span>1위 : {{over.competitive_play.hero1}}</span><br>
-    <span>2위 : {{over.competitive_play.hero2}}</span><br>
-    <span>3위 : {{over.competitive_play.hero3}}</span><br>
+    <span>1위 : {{over.competitive_play.hero1 | viewOverlogo:2}}</span><br>
+    <span>2위 : {{over.competitive_play.hero2 | viewOverlogo:2}}</span><br>
+    <span>3위 : {{over.competitive_play.hero3 | viewOverlogo:2}}</span><br>
   </div>
 </div>
 </div>

@@ -9,13 +9,15 @@ import { SearchOverlogComponent } from './search-overlog/search-overlog.componen
 import { ViewOverlogComponent } from './view-overlog/view-overlog.component';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { ViewOverlogoPipe } from './view-overlogo.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     SearchOverlogComponent,
-    ViewOverlogComponent
+    ViewOverlogComponent,
+    ViewOverlogoPipe
   ],
   imports: [
     BrowserModule,
