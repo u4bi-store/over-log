@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
+  logoPath : string;
 
-  constructor() { }
+  constructor() {
+    this.logoPath = 'http://assets.razerzone.com/eeimages/razer_pages/24924/overwatch-logo.png';
+  }
 
   ngOnInit() {
   }
