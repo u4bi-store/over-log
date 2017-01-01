@@ -22,7 +22,7 @@ export class ViewOverlogoPipe implements PipeTransform {
       case 'Mccre' : temp = '바스티온'; break;
       case 'Pharah' : temp = '파라'; break;
       case 'Reaper' : temp = '젠야타'; break;
-      case 'Soldier:76' : temp = '솔져:76'; break;
+      case 'Soldier: 76' : temp = '솔져:76'; break;
       case 'Sombra' : temp = '솜브라'; break;
       case 'Tracer' : temp = '트레이서'; break;
       case 'Bastion' : temp = '바스티온'; break;
@@ -31,7 +31,7 @@ export class ViewOverlogoPipe implements PipeTransform {
       case 'Mei' : temp = '메이'; break;
       case 'Torbjörn' : temp = '토르비욘'; break;
       case 'Widowmaker' : temp = '위도우메이커'; break;
-      case 'D.va' : temp = '디바'; break;
+      case 'D.Va' : temp = '디바'; break;
       case 'Reinhardt' : temp = '라인하르트'; break;
       case 'Roadhog' : temp = '로드호그'; break;
       case 'Winston' : temp = '윈스톤'; break;
