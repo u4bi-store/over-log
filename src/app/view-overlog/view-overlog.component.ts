@@ -35,6 +35,7 @@ export class ViewOverlogComponent implements OnInit, OnDestroy {
 
       this.searchService.search(tag, num).then(over => {
         this.over = over;
+        console.log(this.over);
       });
     });
   }

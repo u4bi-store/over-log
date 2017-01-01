@@ -6,7 +6,7 @@
   <div>
     <img [src]="over.avatar"><br>
     <span>이름 : {{over.username}}</span><br>
-    <span>레벨 : {{over.level}}</span><br>
+    <span>레벨 : <span *ngIf="over.level_reward"><img style="width:30%; height:30px;" [src]="over.level_reward"></span>{{over.level}}</span><br>
     <span>총 승리한 게임 : {{over.total_wins | viewOverlogo:0}}</span><br>
   </div>
   <div>
